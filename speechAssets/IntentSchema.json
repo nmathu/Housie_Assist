@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "housie",
+            "invocationName": "housie assist",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -29,8 +29,14 @@
                 },
                 {
                     "name": "RecordStartIntent",
-                    "slots": [],
+                    "slots": [
+                        {
+                            "name": "reciever_name",
+                            "type": "name_reciever"
+                        }
+                    ],
                     "samples": [
+                        "record message for {reciever_name}",
                         "record this message",
                         "record my message",
                         "record message",
@@ -72,11 +78,36 @@
                 },
                 {
                     "name": "GetMessageIntent",
-                    "slots": [],
+                    "slots": [
+                        {
+                            "name": "reciever_name",
+                            "type": "name_reciever"
+                        }
+                    ],
                     "samples": [
+                        "read message for {reciever_name}",
                         "read message",
                         "do I have any message",
                         "is there any message for me"
+                    ]
+                },
+                {
+                    "name": "RepeatIntent",
+                    "slots": [],
+                    "samples": [
+                        "repeat message",
+                        "I want to hear message again",
+                        "repeat it",
+                        "repeat"
+                    ]
+                },
+                {
+                    "name": "DeleteIntent",
+                    "slots": [],
+                    "samples": [
+                        "yes you can delete message",
+                        "delete message",
+                        "delete"
                     ]
                 }
             ],
@@ -84,6 +115,11 @@
                 {
                     "name": "message",
                     "values": [
+                        {
+                            "name": {
+                                "value": "one two three four five"
+                            }
+                        },
                         {
                             "name": {
                                 "value": "Please prepare food for dinner and leave the keys with our neighbour"
@@ -141,8 +177,14 @@
                     "values": [
                         {
                             "name": {
+                                "value": "vasavi"
+                            }
+                        },
+                        {
+                            "name": {
                                 "value": "sarala",
                                 "synonyms": [
+                                    "ashwini",
                                     "umad",
                                     "katy",
                                     "danny",
