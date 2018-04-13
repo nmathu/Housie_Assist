@@ -1,0 +1,159 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "housie",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "RecordMessageIntent",
+                    "slots": [
+                        {
+                            "name": "your_message",
+                            "type": "message"
+                        }
+                    ],
+                    "samples": [
+                        "{your_message}"
+                    ]
+                },
+                {
+                    "name": "RecordStartIntent",
+                    "slots": [],
+                    "samples": [
+                        "record this message",
+                        "record my message",
+                        "record message",
+                        "record a message"
+                    ]
+                },
+                {
+                    "name": "RecordStopIntent",
+                    "slots": [],
+                    "samples": [
+                        "finished",
+                        "that's it",
+                        "I'm done",
+                        "I am done",
+                        "stop recording"
+                    ]
+                },
+                {
+                    "name": "GetNameIntent",
+                    "slots": [
+                        {
+                            "name": "reciever_name",
+                            "type": "name_reciever"
+                        }
+                    ],
+                    "samples": [
+                        "to {reciever_name}",
+                        "I want to send to {reciever_name}",
+                        "{reciever_name}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetMessageIntent",
+                    "slots": [],
+                    "samples": [
+                        "read message",
+                        "do I have any message",
+                        "is there any message for me"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "message",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Please prepare food for dinner and leave the keys with our neighbour"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "how did your exams go"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "happy bithday"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hi honey. Guess your day was good; I am going to be home late. Sarala has prepared the dinner."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "I will fetch food on the way"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hey you have drums class today don’t forget you missed last class."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "let's have dinner"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "I want to go out for dinner"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "come over to my place"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "happy birthday to you"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "name_reciever",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "sarala",
+                                "synonyms": [
+                                    "umad",
+                                    "katy",
+                                    "danny",
+                                    "tejas",
+                                    "john"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
