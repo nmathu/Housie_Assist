@@ -63,6 +63,7 @@
                         }
                     ],
                     "samples": [
+                        "this message is for {reciever_name}",
                         "to {reciever_name}",
                         "I want to send to {reciever_name}",
                         "{reciever_name}"
@@ -177,19 +178,379 @@
                     "values": [
                         {
                             "name": {
-                                "value": "vasavi"
+                                "value": "zed",
+                                "synonyms": [
+                                    "zelma",
+                                    "zanda",
+                                    "zach"
+                                ]
                             }
                         },
                         {
                             "name": {
-                                "value": "sarala",
+                                "value": "yashu",
                                 "synonyms": [
-                                    "ashwini",
-                                    "umad",
-                                    "katy",
-                                    "danny",
+                                    "yash",
+                                    "yami",
+                                    "yemen",
+                                    "yasmin",
+                                    "yashwanth"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "winn",
+                                "synonyms": [
+                                    "wenda",
+                                    "whitney",
+                                    "willa",
+                                    "walt",
+                                    "wolf"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "vasavi",
+                                "synonyms": [
+                                    "vimala",
+                                    "vahid",
+                                    "vajith",
+                                    "velma",
+                                    "veena",
+                                    "vinay",
+                                    "varun",
+                                    "vihaan",
+                                    "vicky",
+                                    "varsha",
+                                    "varuni"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "umar",
+                                "synonyms": [
+                                    "uma",
+                                    "ujma",
+                                    "udaya",
+                                    "udhay",
+                                    "ubai",
+                                    "ursula",
+                                    "udolf",
+                                    "udayamurthy",
+                                    "urvashi",
+                                    "urvasi",
+                                    "unnati"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "thara",
+                                "synonyms": [
                                     "tejas",
-                                    "john"
+                                    "taz",
+                                    "taaj",
+                                    "tina",
+                                    "tess",
+                                    "thomas",
+                                    "tom",
+                                    "ted",
+                                    "tex",
+                                    "taimur"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sahana",
+                                "synonyms": [
+                                    "shashank",
+                                    "sarala",
+                                    "sara",
+                                    "sue",
+                                    "sean",
+                                    "scot",
+                                    "sheena",
+                                    "swara",
+                                    "sunny",
+                                    "soumya",
+                                    "seems",
+                                    "smruthi",
+                                    "shrithi",
+                                    "seeta",
+                                    "seetha",
+                                    "saina",
+                                    "smaran",
+                                    "smarana"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "queen",
+                                "synonyms": [
+                                    "qabul",
+                                    "qadi",
+                                    "quint",
+                                    "quincy",
+                                    "quinn",
+                                    "quinta",
+                                    "quilla"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rohit",
+                                "synonyms": [
+                                    "reva",
+                                    "ray",
+                                    "rob",
+                                    "rey",
+                                    "rihana",
+                                    "reva",
+                                    "reetha",
+                                    "reethu",
+                                    "reve",
+                                    "ravi",
+                                    "rahul"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pete",
+                                "synonyms": [
+                                    "pappu",
+                                    "purohith",
+                                    "pushka",
+                                    "pushya",
+                                    "pavana",
+                                    "pavan",
+                                    "pooja",
+                                    "pari",
+                                    "parinitha",
+                                    "preeti",
+                                    "paul",
+                                    "pablo"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "orange",
+                                "synonyms": [
+                                    "omkar",
+                                    "ohana",
+                                    "otis",
+                                    "oliver",
+                                    "owen",
+                                    "qwen"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nama",
+                                "synonyms": [
+                                    "neal",
+                                    "nick",
+                                    "ned",
+                                    "nat",
+                                    "naina",
+                                    "naresh",
+                                    "naman"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mohit",
+                                "synonyms": [
+                                    "mary",
+                                    "mussarat",
+                                    "mihith",
+                                    "mokshith",
+                                    "mouna",
+                                    "mounya",
+                                    "meena"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lavanya",
+                                "synonyms": [
+                                    "lisa",
+                                    "liz",
+                                    "lava",
+                                    "lara",
+                                    "lacy",
+                                    "leah",
+                                    "laila",
+                                    "lohit",
+                                    "lihith",
+                                    "lalith"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "karuna",
+                                "synonyms": [
+                                    "katrina",
+                                    "kareena",
+                                    "komala",
+                                    "komal",
+                                    "kanha",
+                                    "krishna",
+                                    "karthik",
+                                    "keerthi",
+                                    "kavan",
+                                    "katha",
+                                    "kavana",
+                                    "karunya"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jacqaline",
+                                "synonyms": [
+                                    "jeni",
+                                    "jenny",
+                                    "jana",
+                                    "jade",
+                                    "jonson",
+                                    "jeevan",
+                                    "jawad",
+                                    "jailalitha",
+                                    "javed"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "iqbal",
+                                "synonyms": [
+                                    "India",
+                                    "iris",
+                                    "ivy",
+                                    "isha",
+                                    "imtiaz"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "harry",
+                                "synonyms": [
+                                    "hema",
+                                    "hima",
+                                    "hamis",
+                                    "haizan",
+                                    "hitha",
+                                    "havana",
+                                    "harish",
+                                    "haritha",
+                                    "haris"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gopinath",
+                                "synonyms": [
+                                    "girish",
+                                    "gauri",
+                                    "gopi",
+                                    "gary",
+                                    "ganesh",
+                                    "gaurav"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "farah",
+                                "synonyms": [
+                                    "farad"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dhanya",
+                                "synonyms": [
+                                    "dicott",
+                                    "druthi",
+                                    "dvaita",
+                                    "dharunnya",
+                                    "deepa",
+                                    "druva",
+                                    "dhanush"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chaitra",
+                                "synonyms": [
+                                    "ceron",
+                                    "charul",
+                                    "chinku",
+                                    "chaitanya",
+                                    "charan",
+                                    "chandan",
+                                    "chaitra",
+                                    "charitha",
+                                    "charu"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bhargav",
+                                "synonyms": [
+                                    "bethalin",
+                                    "bhuvanesh",
+                                    "bhuvana",
+                                    "bhavana",
+                                    "bharatha",
+                                    "bhishma",
+                                    "brunda",
+                                    "bhanu",
+                                    "bharati",
+                                    "bharath",
+                                    "bhavya"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Anil",
+                                "synonyms": [
+                                    "avnisha",
+                                    "anjelin",
+                                    "aifan",
+                                    "adhya",
+                                    "alok",
+                                    "anushka",
+                                    "anishka",
+                                    "anusha",
+                                    "ayush",
+                                    "aanya",
+                                    "araav",
+                                    "ananya",
+                                    "alok",
+                                    "akash",
+                                    "avinash",
+                                    "ajith",
+                                    "anirudh",
+                                    "abhishek"
                                 ]
                             }
                         }

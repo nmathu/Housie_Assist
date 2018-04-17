@@ -1,4 +1,4 @@
-Home Assistant - Housie
+Home Assistant - Housie assist
 Welcome!
 
 This Alexa skill contain lambda code and config file.

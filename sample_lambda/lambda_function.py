@@ -123,7 +123,7 @@ def record_message(session,slots):#Function to check if the slot has value or re
 			speech_content = "Your message is "+slots['your_message']['value']+" . Is there anything else you want me to do?'"
 			response=RecordedMessageTable.put_item(
 				Item={
-					'messageID':session['attributes']['reciever_name']+slots['your_message']['value'],
+					'message_id':session['attributes']['reciever_name']+slots['your_message']['value'],
 					'UserID':session['user']['userId'],
 					'Name':session['attributes']['reciever_name'],
 					'Message':slots['your_message']['value']
@@ -155,8 +155,8 @@ def stop_record(session):
 		speech_content = "Message saved. Is there anything else you want me to do"
 		reprompt_text ="Message saved. Is there anything else you want me to do"
 	else:
-		speech_output = "Couldn't record message. Please try again"
-		speech_content = "Couldn't record message. Please try again"
+		speech_output = "Couldn't record message.Do you want record message or read message?"
+		speech_content = "Couldn't record message. Do you want record message or read message?"
 		reprompt_text ="Couldn't record message. Please try again. Do you want to record another message"
 	# Setting this to true ends the session and exits the skill.
 	should_end_session = False
@@ -224,7 +224,7 @@ def delete_message(session):
 	for item in message:
 		response = RecordedMessageTable.delete_item(
 				Key={
-						'messageID': session['attributes']['reciever_name']+str(item['Message'])
+						'message_id': session['attributes']['reciever_name']+str(item['Message'])
 				}
 				)
 	speech_output = 'Your messages are deleted'
